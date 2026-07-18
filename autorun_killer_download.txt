@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/chackco/autorun_killer_pub/refs/heads/main/CPE17AutorunKiller_2.2.0.202607182350.exe
+https://github.com/chackco/autorun_killer_pub/raw/refs/heads/main/CPE17AutorunKiller_2.2.0.202607182350.exe
