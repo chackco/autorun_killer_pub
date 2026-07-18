@@ -1,6 +1,6 @@
-# autorun\_killer\_pub
+# CPE17 Autorun Killer
 
-#### CPE17 Autorun Killer - Original autorun malware protection - Free for non-commercial use
+#### Original autorun malware protection - Free for non-commercial use
 
 
 
@@ -17,7 +17,7 @@
 * ป้องกันแบบถาวร ไม่ต้องอัพเดตฐานข้อมูลไวรัส (Virus Definitions) อยู่บ่อยๆ
 * เพิ่มการทำงานพิเศษ สำหรับเครื่องที่ติดไวรัสไปแล้ว โดยมีฟังก์ชันพยายามฆ่าและลบไวรัส (Process Killer)
 * เพิ่มการแสดงรายการ Auto Start ทั้ง Registry, Start up folder และ Schedule task และสามารถสั่งลบได้
-* สามารถ Update DB ทั้งรายการ Whitelist และรายการ Process อันตรายจากอินเตอร์เน็ต 
+* สามารถ Update DB ทั้งรายการ Whitelist และรายการ Process อันตรายจากอินเตอร์เน็ต
 * มีระบบตรวจสอบ version ใหม่ และนำทางไปดาวน์โหลด version ใหม่ได้อัตโนมัติ
 * ใช้เป็นตัว เปิด/ปิด ถาด CD/DVD ได้ด้วย
 * รองรับการสลับ Theme Dark/Light และสลับเมนูภาษาไทย/อังกฤษ
