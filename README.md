@@ -2,7 +2,8 @@
 
 #### Original autorun malware protection - Free for non-commercial use
 
-
+###### Download
+[Download Link](https://github.com/chackco/autorun_killer_pub/raw/refs/heads/main/CPE17AutorunKiller_2.2.0.202607182350.exe)
 
 ###### Download
 
