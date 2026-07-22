@@ -3,7 +3,7 @@
 #### Original autorun malware protection - Free for non-commercial use
 
 ###### Download
-[Download Link](https://github.com/chackco/autorun_killer_pub/raw/refs/heads/main/CPE17AutorunKiller_2.3.0.202607202048.exe)
+[Download Link](https://github.com/chackco/autorun_killer_pub/raw/refs/heads/main/CPE17AutorunKiller_2.4.0.202607222100.exe)
 
 ###### Program Features
 
@@ -23,6 +23,7 @@
 * สามารถ Update DB ทั้งรายการ Whitelist และรายการ Process อันตรายจากอินเตอร์เน็ต
 * มีระบบตรวจสอบ version ใหม่ และนำทางไปดาวน์โหลด version ใหม่ได้อัตโนมัติ
 * ใช้เป็นตัว เปิด/ปิด ถาด CD/DVD ได้ด้วย
+* รองรับระบบลงทะเบียนใบอนุญาต (License Registration System) ผ่าน ECDSA Public Key & Hardware ID
 * รองรับการสลับ Theme Dark/Light และสลับเมนูภาษาไทย/อังกฤษ
 * โปรแกรมป้องกันไวรัส CPE17 นี้สามารถใช้ได้กับ Vista/ 7 / 8 /10/ 11 (กรุณารันด้วยสิทธิ Administrator เพื่อใช้งานฟังก์ชั่นสำคัญ)
 
