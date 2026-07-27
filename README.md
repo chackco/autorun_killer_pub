@@ -19,7 +19,7 @@
 * เพิ่มการทำงานพิเศษ สำหรับเครื่องที่ติดไวรัสไปแล้ว โดยมีฟังก์ชันพยายามฆ่าและลบไวรัส (Process Killer)
 * สามารถตั้งให้ตรวจสอบ และลบไฟล์ที่เป็นรูปแบบของไวรัส เช่น ชื่อเดียวกับโฟลเดอร์ หรือไวรัสที่ Copy ตัวเองซ้ำ โดยอัตโนมัติได้
 * ตรวจสอบ Image File Execution Option และ WinLogon กรณีถูกไวรัสพยายามฝังตัว
-* ตรวจสอบ Schedule task และ WMI subscription เพือค้นหาไวรัสที่พยายามแฝงตัวอยู่
+* ตรวจสอบ Schedule task และ WMI เพือค้นหาไวรัสที่พยายามแฝงตัวอยู่
 * ตรวจสอบ Cached autorun เพื่อป้องกันการติดเชื้อซ้ำจาก cache หลังจากลบไฟล์ autorun.inf
 * เพิ่มการแสดงรายการ Auto Start ทั้ง Registry, Start up folder และ Schedule task และสามารถสั่งลบได้
 * เพิ่มฟีเจอร์ ลบไฟล์ขยะ และ ไฟล์แคชของ browser
@@ -43,11 +43,7 @@
 
 ### System Repair & Deep Scanning
 *   **OS Feature Restoration:** Repairs and restores critical Windows utilities often disabled by malware, including RegEdit, Task Manager, Folder Options, CMD, Search functions, and hijacked Internet Explorer Title Bars.
-*   **Persistence Mechanism Auditing:** Scans deep system hooks often abused by malware to maintain persistence, specifically:
-    *   Image File Execution Options (IFEO)
-    *   WinLogon registry keys
-    *   WMI Subscriptions
-    *   Scheduled Tasks
+*   **Persistence Mechanism Auditing:** Scans deep system hooks often abused by malware to maintain persistence, like Image File Execution Options, WinLogon, WMI, Scheduled Tasks
 *   **Auto-Start Management:** Provides visibility and removal capabilities for startup entries across the Registry, Startup folders, and Scheduled Tasks.
 
 ### Performance & System Utilities
