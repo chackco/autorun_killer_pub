@@ -26,8 +26,41 @@
 * สามารถ Update DB ทั้งรายการ Whitelist และรายการ Process อันตรายจากอินเตอร์เน็ต
 * มีระบบตรวจสอบ version ใหม่ และนำทางไปดาวน์โหลด version ใหม่ได้อัตโนมัติ
 * ใช้เป็นตัว เปิด/ปิด ถาด CD/DVD ได้ด้วย
-* รองรับระบบลงทะเบียนใบอนุญาต (License Registration System) ผ่าน ECDSA Public Key & Hardware ID
+* รองรับระบบลงทะเบียนใบอนุญาต (License Registration System) ผ่าน Hardware ID
 * รองรับการสลับ Theme Dark/Light และสลับเมนูภาษาไทย/อังกฤษ
 * โปรแกรมป้องกันไวรัส CPE17 นี้สามารถใช้ได้กับ Vista/ 7 / 8 /10/ 11 (กรุณารันด้วยสิทธิ Administrator เพื่อใช้งานฟังก์ชั่นสำคัญ)
 * เมื่อรันครั้งแรก ให้กด Register เพื่อลงทะเบียนการใช้งาน (Free สำหรับบุคคลทั่วไป)
 
+-------------------------
+
+### Core Protection & Malware Mitigation
+*   **Companion Security:** Designed primarily to neutralize threats originating from USB Flash/Thumb drives. It acts as a specialized second layer of defense and should be used alongside your primary Antivirus software.
+*   **Vector Blocking:** Prevents infections at the source by comprehensively blocking AutoRun execution across all vectors, including removable drives, CD/DVDs, and network drives.
+*   **AutoRun Eradication:** Automatically and permanently disables AutoRun functionality to prevent recurring infections.
+*   **Heuristic / Behavior-Based Detection:** Provides permanent protection without relying on frequent virus definition updates. It automatically detects and deletes files exhibiting malware behavior, such as executables disguising themselves as folders or self-replicating files.
+*   **Active Process Killer:** Includes specialized routines for already-infected machines to forcefully terminate and eradicate active malware processes.
+*   **Cache Sanitization:** Inspects cached AutoRun data to prevent reinfection from the system cache after the primary `autorun.inf` file has been deleted.
+
+### System Repair & Deep Scanning
+*   **OS Feature Restoration:** Repairs and restores critical Windows utilities often disabled by malware, including RegEdit, Task Manager, Folder Options, CMD, Search functions, and hijacked Internet Explorer Title Bars.
+*   **Persistence Mechanism Auditing:** Scans deep system hooks often abused by malware to maintain persistence, specifically:
+    *   Image File Execution Options (IFEO)
+    *   WinLogon registry keys
+    *   WMI Subscriptions
+    *   Scheduled Tasks
+*   **Auto-Start Management:** Provides visibility and removal capabilities for startup entries across the Registry, Startup folders, and Scheduled Tasks.
+
+### Performance & System Utilities
+*   **Ultra-Lightweight & Portable:** Written in native C++ with a footprint of less than 1MB. It consumes minimal system resources, making it highly efficient even on low-specification hardware.
+*   **Zero-Installation:** Runs immediately upon double-clicking (portable executable). 
+*   **Junk Cleanup:** Built-in utility to clear system junk files and browser caches.
+*   **Hardware Control:** Includes a quick-access toggle to open/close CD/DVD trays.
+
+### Configuration & Administration
+*   **Customizable Operations:** Easy-to-toggle options for automatic deletion, audio alerts, result displays, and optical drive scanning.
+*   **Cloud Database Updates:** Allows on-demand updates for whitelists and known malicious process databases.
+*   **Automated Version Control:** Built-in system to check for and route you to the latest software updates.
+*   **Secure Licensing:** Utilizes a secure license registration system based on Hardware ID binding.
+*   **Modern UI:** Supports switching between Dark and Light themes, as well as English and Thai localizations.
+*   **Broad Compatibility:** Fully functional on Windows Vista, 7, 8, 10, and 11. *(Note: Must be executed with Administrator privileges for core system modifications to work).*
+*   **Registration:** Upon first launch, click 'Register' to activate the software (Free for personal use).
